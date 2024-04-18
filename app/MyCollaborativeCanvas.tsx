@@ -14,7 +14,7 @@ process.env.NODE_ENV === 'development'
 		? 'ws://localhost:1234'
 		: 'wss://demos.yjs.dev'
 
-export default function YjsExample({ roomId }: MyCollaborativeCanvasProps) {
+export default function MyCollaborativeCanvas({ roomId }: MyCollaborativeCanvasProps) {
 	const store = useYjsStore({
 		roomId: roomId,
 		hostUrl: HOST_URL,

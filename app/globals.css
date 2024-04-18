@@ -52,19 +52,19 @@
 	list-style: none;
 }
 
-.examples__list__item {
+.examples_list_item {
 	padding: 8px 12px;
 	margin: 0px -12px;
 }
 
-.examples__list__item a {
+.examples_list_item a {
 	padding: 8px 12px;
 	margin: 0px -12px;
 	text-decoration: none;
 	color: inherit;
 }
 
-.examples__list__item a:hover {
+.examples_list_item a:hover {
 	text-decoration: underline;
 }
 
